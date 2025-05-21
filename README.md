@@ -128,4 +128,8 @@ This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop, ~~S
 * `/shared` is for the code that will be shared between all targets in the project.
   The most important subfolder is `commonMain`. If preferred, you can add code to the platform-specific folders here too.
 
-Learn more about [Kotlin/Wasm](https://kotl.in/wasm/)… public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web). [GitHub](https://github.com/JetBrains/compose-multiplatform/issues). You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+Learn more about [Kotlin/Wasm](https://kotl.in/wasm/)… public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web). [GitHub](https://github.com/JetBrains/compose-multiplatform/issues). You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task. 
+
+## Similar Projects
+
+https://github.com/brilliancebitcoin/nostrgram
