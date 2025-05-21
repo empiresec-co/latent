@@ -1,10 +1,116 @@
 # Latent
 
-e2ee group messaging with channels running over nostr.
+e2ee group messaging with channels running over private nostr relay.
 
-## Spec
+## Inspiration
 
-https://github.com/nostr-protocol/nips/blob/master/29.md
+The dir `/shared/src/commonMain/kotlin/co/empiresec` is inspired from [amethyst](https://github.com/vitorpamplona/amethyst/)
+
+## Supported NIP's
+
+### Necessary (v1)
+
+- [ ] **Relay-based Groups** ([NIP-29](https://github.com/nostr-protocol/nips/blob/master/29.md
+))
+- [ ] Local Database
+
+**core**
+
+- [ ] Events / Relay Subscriptions (NIP-01)
+- [ ] Private Direct Messages (NIP-17)
+- [ ] DNS Address (NIP-05) (empiresec.co)
+- [ ] Relay Authentication (NIP-42)
+- [ ] HTTP Auth (NIP-98)
+- [ ] Login with QR
+- [ ] Classifieds (NIP-99)
+- [ ] Private key encryption for import/export (NIP-49)
+
+**messaging**
+
+- [ ] Edits (NIP-37) (do not allow after 24 hrs)
+- [ ] Event Deletion (NIP-09) (do not allow after 24 hrs)
+- [ ] Replies, mentions, Threads, and Notifications (NIP-10)
+- [ ] Expiration Support (NIP-40)
+- [ ] Topics
+- [ ] Pinned Messages
+- [ ] Upward infinite scroll
+
+**private relay**
+
+- [ ] Relay Information Document (NIP-11)
+
+### Neccessary (v2)
+
+- [ ] OpenTimestamps Attestations (NIP-03)
+- [ ] Image Capture in the app
+- [ ] Video Capture in the app
+
+**core**
+
+- [ ] Gift Wraps & Seals (NIP-59)
+
+**messaging**
+
+- [ ] Audio Tracks (kind:31337)
+
+**community funding**
+
+- [ ] Wallet Connect API (NIP-47)
+- [ ] Lightning Tips
+- [ ] Zaps (NIP-57)
+- [ ] Private Zaps
+- [ ] Zap Splits (NIP-57)
+- [ ] Zap Goals (NIP-75)
+- [ ] Zapraiser (NIP-TBD)
+
+**community**
+
+- [ ] Calendar Events (NIP-52)
+- [ ] Live Activities & Live Chats (NIP-53)
+- [ ] Video Events (NIP-71)
+- [ ] Moderated Communities (NIP-72)
+- [ ] Hashtag Following and Custom Hashtags
+- [ ] On-Device Automatic Translations
+- [ ] Polls (NIP-69)
+
+**UX**
+
+- [ ] Events with a Subject (NIP-14)
+- [ ] Reactions (NIP-25)
+- [ ] Push Notifications (Unified Push)
+- [ ] Badges (NIP-58)
+- [ ] Draft Events
+- [ ] Event Sets
+- [ ] Markdown Support
+
+**UI**
+
+- [ ] Sensitive Content (NIP-36)
+- [ ] Long-form Content (NIP-23)
+- [ ] Image/Video/Url/LnInvoice Previews
+
+### Nice to have's
+
+- [ ] Generic Tag Queries (NIP-12)
+- [ ] Custom Emoji (NIP-30)
+- [ ] Event kind summaries (NIP-31)
+- [ ] Torrents (NIP-35)
+- [ ] User Status Event (NIP-38)
+- [ ] External Identities (NIP-39)
+- [ ] Workspaces
+- [ ] Lists (NIP-51)
+- [ ] Wiki (NIP-54)
+
+### Maybe's
+
+- [ ] Proof of Work Display (NIP-13)
+- [ ] Proof of Work Calculations (NIP-13)
+- [ ] Text Note References (NIP-27)
+- [ ] Labeling (NIP-32)
+- [ ] Parameterized Replaceable Events (NIP-33)
+- [ ] Versioned Encrypted Payloads (NIP-44)
+- [ ] Relay List Metadata (NIP-65)
+- [ ] Embed events
 
 ## Tech Stack
 
