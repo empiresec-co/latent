@@ -111,6 +111,16 @@ The dir `/shared/src/commonMain/kotlin/co/empiresec` is inspired from [amethyst]
 - [ ] Versioned Encrypted Payloads (NIP-44)
 - [ ] Relay List Metadata (NIP-65)
 - [ ] Embed events
+- [ ] integrate nos2x
+
+### Maybe Problems
+
+- [ ] load new messages into msg_cache during getLatestMessage() rather than waiting for add-message
+- [ ] load new messages into msg_cache during getLatestMessage() rather than waiting for add-message
+- [ ] add a i18n solution (https://phrase.com/blog/posts/step-step-guide-javascript-localization/)
+- [ ] add support for nos2x's relay list
+- [ ] add support for ephemeral events (nip16) and use them to display "typing..." indicators
+* [ ] add support for replaceable events (nip16) and use them to sync account-specific private data across devices
 
 ## Tech Stack
 
@@ -132,4 +142,4 @@ Learn more about [Kotlin/Wasm](https://kotl.in/wasm/)… public Slack channel [#
 
 ## Similar Projects
 
-https://github.com/brilliancebitcoin/nostrgram
+None
