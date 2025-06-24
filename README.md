@@ -143,3 +143,20 @@ Learn more about [Kotlin/Wasm](https://kotl.in/wasm/)… public Slack channel [#
 ## Similar Projects
 
 None
+
+## Inspirations
+
+its not native / js yuck - https://github.com/coracle-social/flotilla
+
+https://github.com/damus-io/notedeck
+
+
+
+## References
+
+rust-egui performance - https://x.com/damusapp/status/1933255349425062332
+
+https://github.com/rjaros/kilua/issues/36
+
+https://github.com/varabyte/kobweb/discussions/704
+
