@@ -150,6 +150,12 @@ its not native / js yuck - https://github.com/coracle-social/flotilla
 
 https://github.com/damus-io/notedeck
 
+https://github.com/revoltchat/android
+
+## Bad Approaches.
+
+
+https://github.com/revoltchat/backend
 ## References
 
 "The user interface in Tauri apps currently leverages [tao](https://docs.rs/tao) as a window handling library on macOS, Windows, Linux, Android and iOS. To render your application, Tauri uses [WRY](https://github.com/tauri-apps/wry), a library which provides a unified interface to the system webview, leveraging WKWebView on macOS & iOS, WebView2 on Windows, WebKitGTK on Linux and Android System WebView on Android."
